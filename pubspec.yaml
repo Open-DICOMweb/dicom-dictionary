@@ -1,0 +1,17 @@
+name: dictionary
+description: A library containing DICOM Date Definitions.
+version: 0.1.1
+author: Jim Philbin <jfphilbin@gmail.com>
+homepage: https://github.com/Open-DICOMweb/dictionary
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  attribute:
+    path: C:/github2/odw/dicom/attribute
+  dataset:
+    path: C:/github2/odw/dicom/dataset
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
